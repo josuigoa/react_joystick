@@ -25,6 +25,10 @@ JoyStick.defaultProps = {
     mode: 'semi',
     catchDistance: 150,
     color: 'white',
+    top: '0px',
+    right: '0px',
+    bottom: '0px',
+    left: '0px',
   },
   containerStyle: {
     width: '100%',
@@ -40,6 +44,10 @@ JoyStick.propTypes = {
     mode: PropTypes.string,
     catchDistance: PropTypes.number,
     color: PropTypes.string,
+    top: PropTypes.string,
+    right: PropTypes.string,
+    bottom: PropTypes.string,
+    left: PropTypes.string,
   }),
   containerStyle: PropTypes.shape({
     width: PropTypes.string,
